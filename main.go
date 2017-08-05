@@ -67,3 +67,9 @@ func findFile() []byte {
 func parseFile(file []byte) {
 	json.Unmarshal(file, &ProjDef)
 }
+
+func hErr(e error) {
+	if e != nil {
+		panic(e)
+	}
+}

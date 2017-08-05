@@ -22,7 +22,3 @@ func projectName() {
 func printProjDef() {
 	fmt.Printf("%v", ProjDef)
 }
-
-func printGitBranch() {
-	fmt.Printf("%s", gitBranchName())
-}
